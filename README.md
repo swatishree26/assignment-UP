@@ -41,13 +41,13 @@ Web application which will lists the menu for a given restaurant (Backend and Fr
 
 ### Sorted Items
 * Items within each category are displayed in alphabetical order based on "name"
-* url_path : http://127.0.0.1:8000/show/1/
-url_path : http://swatishree.tech:5000/show/1/
+* url_path : http://127.0.0.1:8000/show/1
+* url_path : http://swatishree.tech:5000/show/1
 
 ### Default Selection
 * Items from default category (first) are displayed
 * url_path : http://127.0.0.1:8000
-url_path : http://swatishree.tech:5000
+* url_path : http://swatishree.tech:5000/show
 
 ### Search
 * Items are searchable via backend. Could not implement for frontend
