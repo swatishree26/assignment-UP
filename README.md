@@ -9,15 +9,15 @@ Web application which will lists menu for a given restaurant (Backend and Fronte
 
 
 ## How to run the application locally (Backend and Frontend)
-* [Download from Github](#download)
-* [Run sql script to load dummy data in db](#sqldata)
-* [Run Flask](#flask)
-* [Run Django](#django)
+* [Download from Github](#download-from-github)
+* [Run sql script to load dummy data in db](#dummy-data-for-project)
+* [Run Flask](#run-flask)
+* [Run Django](#run-django)
 
 
 ## Requirements Implemented
-* [Sorted](#sorted)
-* [Default-](#default)
+* [Sorted Items](#sorted-items)
+* [Default Selection](#default-selection)
 * [Search](#search)
 * [Filter](#filter)
 * [Pagination](#pagination)
@@ -35,7 +35,7 @@ Web application which will lists menu for a given restaurant (Backend and Fronte
 * Edit sql pass credentials in config.py (/instance)
 
 
-### Run Flask (from UrbanPiper-Backend/)
+### Run Flask
 * pip install Flask
 * pip install flask_sqlalchemy
 * pip install flask_mysqldb
@@ -48,19 +48,19 @@ Web application which will lists menu for a given restaurant (Backend and Fronte
 * flask run
 
 
-### Run Django (at manage.py location)
+### Run Django
 * pip install django
 * pip3 install requests
 * python3 manage.py runserver
 
 
-### Sorted
+### Sorted Items
 * Items within each category are displayed in alphabetical order based on "name"
 * url_path : http://127.0.0.1:8000/show/1
 * url_path : http://swatishree.tech:5000/show/1
 
 
-### Default
+### Default Selection
 * Items from default category (first) are displayed
 * url_path : http://127.0.0.1:8000
 * url_path : http://swatishree.tech:5000/show
