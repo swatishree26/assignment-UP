@@ -24,7 +24,7 @@ Web application which will lists the menu for a given restaurant (Backend and Fr
 * Run the sql script(dummy_data.sql) on sql server
 * Edit sql pass credentials in config.py (/instance)
 
-### Run Flask
+### Run Flask (from UrbanPiper-Backend/)
 * pip install Flask
 * pip install flask_sqlalchemy
 * pip install flask_mysqldb
