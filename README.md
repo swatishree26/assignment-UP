@@ -17,7 +17,7 @@ Web application which will lists menu for a given restaurant (Backend and Fronte
 
 ## Requirements Implemented
 * [Sorted](#sorted)
-* [Default(#default)
+* [Default-](#default)
 * [Search](#search)
 * [Filter](#filter)
 * [Pagination](#pagination)
