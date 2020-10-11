@@ -50,7 +50,7 @@ Web application which will lists the menu for a given restaurant (Backend and Fr
 ### Search
 * Items are searchable via backend. Could not implement for frontend
 * url_path : http://127.0.0.1:5000/search/5?name='Shikanji'
-* url_path : http://swatishree.tech:5000/search/5?name='Shikanji'
+* url_path : http://swatishree.tech:5000/search/5?name=%27Shikanji%27
 
 
 ### Filter
