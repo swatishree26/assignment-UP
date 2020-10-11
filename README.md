@@ -63,7 +63,7 @@ Web application which will lists menu for a given restaurant (Backend and Fronte
 
 ### Filter
 * Veg Only option has been implemented
-* url_path : http://127.0.0.1:5000/filter?food_type='Veg'
+* url_path : http://127.0.0.1:5000/filter?food_type=%27Veg%27
 * url_path : http://swatishree.tech:5000/filter?food_type=%27Veg%27
 
 ### Pagination
