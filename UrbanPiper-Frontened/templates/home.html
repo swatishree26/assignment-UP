@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+         Online Food Ordering
+        </title>
+    </head>
+    <body style="background-image: url('file:///C:/home/swatishree/Downloads/a.jpeg');background-color: lavender;">        
+        <div style="background-color: antiquewhite;">
+            <span style="font-size: xx-large;color: darkviolet;margin-bottom: 25px;margin-left: 450px;">Food Menu</span>
+                {% if data %}
+                    <span style="display: grid; float: left;margin-top: 45px;">
+                        {% for i in data %}
+                            <span>
+                                <input type="hidden" id="category_id" value="{{forloop.counter}}">
+                                <button onclick="location.href='{% url 'desc' forloop.counter %}'" style = "color:blue;width:200px;height:80px;display:inline;">{{i}}</button>
+                            </span>
+                        {% endfor %}
+                    </span>
+                {% endif %}
+
+                {% if itemdata %}
+                    {% for j in itemdata%}       
+                        <span style="float:right;width:800px;margin-right:500px;margin-bottom:50px;color:chocolate;margin-top:25px;"> {{j}}</span>             
+                    {% endfor %}
+                {% endif %}             
+        </div>
+    </body>
+</html>
