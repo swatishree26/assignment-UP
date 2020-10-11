@@ -18,7 +18,9 @@ Web application which will lists the menu for a given restaurant (Backend and Fr
 * Download and extract the code from - https://github.com/swatishree26/assignment-UP/archive/master.zip
 
 ### Dummy data for project
-* Run the sql script(dummy_data.sql) on sql server after creating the database ("fooddetails")
+* Create database - "fooddetails"
+* Complete all the steps under run flask
+* Run the sql script(dummy_data.sql) on sql server
 * Edit sql pass credentials in config.py (/instance)
 
 ### Run Flask
