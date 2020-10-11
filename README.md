@@ -16,6 +16,7 @@ Web application which will lists the menu for a given restaurant (Backend and Fr
 
 ### Download from Github
 * Download and extract the code from - https://github.com/swatishree26/assignment-UP/archive/master.zip
+* Or Clone the repository - https://github.com/swatishree26/assignment-UP.git
 
 ### Dummy data for project
 * Create database - "fooddetails"
