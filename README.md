@@ -1,7 +1,7 @@
 # Assignment-UP
 Web application which will lists menu for a given restaurant (Backend and Frontend). Frontend has only been implemented on the local machine.
 
-Access via Internet (Backend only)
+# Access via Internet (Backend only)
 * Sorted Items - http://swatishree.tech:5000/show/1
 * Default Selection - http://swatishree.tech:5000/show
 * Search - http://swatishree.tech:5000/search/5?name=%27Shikanji%27
@@ -52,7 +52,7 @@ Access via Internet (Backend only)
 * url_path : http://127.0.0.1:8000/show/1
 * url_path : http://swatishree.tech:5000/show/1
 
-### Default Selection
+### Default Selection (#default)
 * Items from default category (first) are displayed
 * url_path : http://127.0.0.1:8000
 * url_path : http://swatishree.tech:5000/show
