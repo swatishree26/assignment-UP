@@ -5,7 +5,7 @@ Web application which will lists the menu for a given restaurant (Backend and Fr
 * Sorted Items - http://swatishree.tech:5000/show/1
 * Default Selection - http://swatishree.tech:5000/show
 * Search - http://swatishree.tech:5000/search/5?name=%27Shikanji%27
-* Filter - http://swatishree.tech:5000/filter?food_type='Veg'
+* Filter - http://swatishree.tech:5000/filter?food_type=%27Veg%27
 
 ## How to run the application locally
 * [Download from Github](#download)
@@ -64,7 +64,7 @@ Web application which will lists the menu for a given restaurant (Backend and Fr
 ### Filter
 * Veg Only option has been implemented
 * url_path : http://127.0.0.1:5000/filter?food_type='Veg'
-* url_path : http://swatishree.tech:5000/filter?food_type='Veg'
+* url_path : http://swatishree.tech:5000/filter?food_type=%27Veg%27
 
 ### Pagination
 * Not yet implemented
