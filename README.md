@@ -11,7 +11,7 @@ Web application which will lists menu for a given restaurant (Backend and Fronte
 ## How to run the application locally (Backend and Frontend)
 * [Download from Github](#download-from-github)
 * [Run sql script to load dummy data in db](#dummy-data-for-project)
-* [Run Flask](#run-flask)
+* [Run Flask(at manage.py location)](#run-flask)
 * [Run Django](#run-django)
 
 
