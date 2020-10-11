@@ -1,5 +1,5 @@
 # Assignment-UP
-Web application which will lists the menu for a given restaurant (Backend and Frontend)
+Web application which will lists menu for a given restaurant (Backend and Frontend)
 
 # Access via Internet
 * Sorted Items - http://swatishree.tech:5000/show/1
