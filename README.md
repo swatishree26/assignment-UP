@@ -1,5 +1,5 @@
 # Assignment-UP
-Web application which will lists menu for a given restaurant (Backend and Frontend)
+Web application which will lists menu for a given restaurant (Backend and Frontend). Frontend has only been implemented on the local machine.
 
 # Access via Internet (Backend only)
 * Sorted Items - http://swatishree.tech:5000/show/1
@@ -43,6 +43,8 @@ Web application which will lists menu for a given restaurant (Backend and Fronte
 * flask run
 
 ### Run Django (at manage.py location)
+* pip install django
+* pip3 install requests
 * python3 manage.py runserver
 
 ### Sorted Items
