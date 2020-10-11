@@ -16,8 +16,8 @@ Web application which will lists menu for a given restaurant (Backend and Fronte
 
 
 ## Requirements Implemented
-* [Sorted Items](#sorted)
-* [Default Selection](#default)
+* [Sorted](#sorted)
+* [Default(#default)
 * [Search](#search)
 * [Filter](#filter)
 * [Pagination](#pagination)
@@ -29,7 +29,7 @@ Web application which will lists menu for a given restaurant (Backend and Fronte
 
 
 ### Dummy data for project
-* Create database - "fooddetails"
+* Create database - "fooddetails" from dummy_data.sql on sql server
 * Complete all the steps under run flask
 * Run the sql script(dummy_data.sql) on sql server
 * Edit sql pass credentials in config.py (/instance)
@@ -54,13 +54,13 @@ Web application which will lists menu for a given restaurant (Backend and Fronte
 * python3 manage.py runserver
 
 
-### Sorted Items
+### Sorted
 * Items within each category are displayed in alphabetical order based on "name"
 * url_path : http://127.0.0.1:8000/show/1
 * url_path : http://swatishree.tech:5000/show/1
 
 
-### Default Selection
+### Default
 * Items from default category (first) are displayed
 * url_path : http://127.0.0.1:8000
 * url_path : http://swatishree.tech:5000/show
