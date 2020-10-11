@@ -42,10 +42,12 @@ Web application which will lists the menu for a given restaurant (Backend and Fr
 ### Sorted Items
 * Items within each category are displayed in alphabetical order based on "name"
 * url_path : http://127.0.0.1:8000/show/1/
+url_path : http://swatishree.tech:5000/show/1/
 
 ### Default Selection
 * Items from default category (first) are displayed
 * url_path : http://127.0.0.1:8000
+url_path : http://swatishree.tech:5000
 
 ### Search
 * Items are searchable via backend. Could not implement for frontend
@@ -56,7 +58,7 @@ Web application which will lists the menu for a given restaurant (Backend and Fr
 ### Filter
 * Veg Only option has been implemented
 * url_path : http://127.0.0.1:5000/filter?food_type='Veg'
-* url_path : http://swatishree.tech:5000/search/5?name='Shikanji'
+* url_path : http://swatishree.tech:5000/filter?food_type='veg'
 
 ### Pagination
 * Not yet implemented
